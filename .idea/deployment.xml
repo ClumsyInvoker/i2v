@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="i2v" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="1">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="2">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="i2v">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/autodl-tmp/i2v" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/autodl-tmp/i2v/data" />
+            <excludedPath path="/autodl-tmp/i2v/ckpt" />
+            <excludedPath path="/autodl-tmp/i2v/models" />
+            <excludedPath path="/autodl-tmp/i2v/mymodels" />
+            <excludedPath local="true" path="$PROJECT_DIR$/assets" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="i2v_diffusion1">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/autodl-tmp/i2v" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/autodl-tmp/i2v/data" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="i2v_diffusion3">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/i2v" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/root/autodl-tmp/i2v/ckpt" />
+            <excludedPath path="/root/autodl-tmp/i2v/data" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

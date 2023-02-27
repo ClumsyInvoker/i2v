@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5ab186ff-33d7-41bd-adcb-321f633f25d6" name="i2v">
+        <fileTransfer rootFolder="/root" accessType="SFTP" host="region-41.seetacloud.com" port="45818" sshConfigId="6a910eba-62d8-4884-af81-9f5f6ab6f889" sshConfig="i2v">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="cbe28897-368c-4bcb-a188-a622e1c59275" name="i2v_diffusion3">
+        <fileTransfer accessType="SFTP" host="region-41.seetacloud.com" port="10677" sshConfigId="8f88ebb9-5bc3-40ae-8bc8-fb1aede7e485" sshConfig="i2v_diffusion3">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="f881d472-ceac-4092-a18d-c7e6f2739edc" name="i2v_diffusion1">
+        <fileTransfer rootFolder="/root" accessType="SFTP" host="region-41.seetacloud.com" port="42224" sshConfigId="7fa1769d-8b2d-4da0-8856-307b4db19583" sshConfig="i2v_diffusion1">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

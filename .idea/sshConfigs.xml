@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="region-41.seetacloud.com" id="6a910eba-62d8-4884-af81-9f5f6ab6f889" port="45818" customName="i2v" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="i2v" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="region-41.seetacloud.com" id="7fa1769d-8b2d-4da0-8856-307b4db19583" port="42224" customName="i2v_diffusion1" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="i2v_diffusion1" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>
